@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <!-- <img alt="jongen of meisje" src="./assets/jongen_meisje.jpg">
+    <Main msg="Baby Hansen 2.0"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <Form/>
+    <Statistics/> -->
+    <Navbar/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+    import Navbar from "./components/Navbar"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar
   }
 }
 </script>
@@ -25,4 +34,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+    body{
+        background-image: url("assets/white-waves.png");
+    }
 </style>
