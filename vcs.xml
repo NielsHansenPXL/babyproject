@@ -18,8 +18,12 @@
           <option name="url" value="https://github.com/NielsHansenPXL/babyhansen" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/3AON-WebExpert/ch4-5-oefeningen-NielsHansenPXL.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\11800963\Documents\PXL S2IT 18-19\Web Advanced\Code\Oefeningen" />
+    <option name="cloneParentDir" value="C:\Users\11800963\Documents\PXL S2IT 18-19\Web Expert" />
   </component>
 </application>
